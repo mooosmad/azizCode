@@ -56,6 +56,48 @@ section {
   background-size: cover;
 }
 
+article .box{
+  background-color: aquamarine;
+  background-repeat: no-repeat;
+
+}
+#decalage {
+  background-position: right 20px bottom 50px;
+}
+#decalage-droite {
+  background-position: left -20px bottom 50px;
+}
+#centre {
+  background-position: center;
+}
+#centre-haut {
+  background-position: center top;
+}
+#bas-droite {
+  background-position: right bottom;
+}
+#bas-droite-decale {
+  background-position: right 5px bottom 5px;
+}
+/* Regles sections precedentes */
+/* 
+.info{
+  background: url('/champignon/ui/img/champi.png') no-repeat center top 1em white padding-top: 3em padding-left: 0.5em padding-right: 0.5em padding-bottom: 0.5em center top 1em;
+}
+ */
+.info{
+  background-image: url('/champignon/ui/img/champi.png');
+  background-repeat: no-repeat;
+  background-color: white;
+  background-position: center top 1em;
+  padding-top: 3em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+
+
 
 /***********************************/
 /* Ajoutez vos règles ci-dessous ! */
