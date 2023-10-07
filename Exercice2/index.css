@@ -1,0 +1,40 @@
+
+.vertical-menu{
+    width: 300px;
+}
+.vertical-menu li, a{
+    background-color: white;
+    color: 24c2da;
+    display: block;
+  
+    padding: 2px;
+    text-decoration: none;
+    border: 1px solid #24c2da;
+    border-left: 3px solid #24c2da;
+}
+
+.horizontal-menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+.horizontal-menu li{
+    float: left;
+   border-right: none;
+}
+.horizontal-menu li a{
+    background-color: white;
+    display: block;
+    color: #02454f;
+    text-align: center;
+    padding: 8px 10px;
+    text-decoration: none;
+   
+}
+.horizontal-menu li:hover a{
+    background-color: #02454f;
+    color: white;
+}
