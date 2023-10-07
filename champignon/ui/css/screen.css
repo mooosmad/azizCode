@@ -1,0 +1,47 @@
+/***************************/
+/* Règles à ne pas toucher */
+/***************************/
+
+main {
+  margin: auto;
+  max-width: 60em;
+  border: 1px solid #ddd;
+  padding: 1em;
+  background-color: #f1fcea;
+}
+
+h2 {
+  color: tomato;
+  background-color: #f7e9d7;
+}
+
+figure {
+  background-color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+aside,
+section {
+  border: 1px solid tomato;
+  width: 20em;
+  text-align: center;
+  margin: 1em auto;
+}
+
+section {
+  height: 30em;
+}
+
+.box {
+  border: 1px solid black;
+  width: 10em;
+  height: 5em;
+  margin: 1em auto;
+  padding: .5em;
+}
+
+/***********************************/
+/* Ajoutez vos règles ci-dessous ! */
+/***********************************/
+
