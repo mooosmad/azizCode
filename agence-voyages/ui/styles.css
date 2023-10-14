@@ -1,6 +1,39 @@
-
+html{
+    background-color: skyblue;
+}
 body {
-    color: red;
-    max-width: 1200px;
+    color: none;
+    max-width: 1200px;   
+}
+
+.banniere {
+    background: url("images/plage.jpg") no-repeat;
     
+}
+
+h1{
+    position: relative;
+    right: -50%;
+    top: -200px;
+}
+
+main{
+    position: relative;
+    left: 20%;
+    top: -120px;
+}
+
+footer{
+    position: relative;
+    left: 40%;
+}
+
+h2{
+    position: relative;
+    left: 10%;
+}
+
+.section-image{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
