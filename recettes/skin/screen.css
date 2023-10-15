@@ -1,11 +1,33 @@
+body{
+    width: 1200px;
+}
 .banniere{
-    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    /* position: relative;
     left: 12%;
-    top: -80px;
+    top: -80px; */
 }
 
+
+.escalope{
+    /* width: 400px; */
+    display: flex;
+    flex-direction: row;
+
+}
 .menu{
     width: 400px;
-    margin-left: 350px;
+}
+.recette{
+    display: flex;
+    flex-direction: column;
+    
+    width: 600px;
+    border: 1px solid black;
+}
+.recette img {
+    width: 200px;
 }
 
