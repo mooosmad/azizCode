@@ -9,6 +9,10 @@ body{
     left: 12%;
     top: -80px; */
 }
+.mon-titre{
+    font-size: 50px;
+    margin-left: 150px;
+}
 
 
 .escalope{
@@ -19,6 +23,7 @@ body{
 }
 .menu{
     width: 400px;
+    margin-top: 10%;
 }
 .recette{
     display: flex;
@@ -30,4 +35,21 @@ body{
 .recette img {
     width: 200px;
 }
+
+.pied{
+    display: flex;
+    flex-direction: row;
+}
+.deuxieme-pied{
+    margin-left: 20%;
+}
+
+.elements{
+    display: flex;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 40px;
+}
+
 
