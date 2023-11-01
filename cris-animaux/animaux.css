@@ -1,0 +1,22 @@
+html{
+    background-color: rgb(54, 163, 163);
+}
+
+.banniere{
+    color: darkblue;
+    text-align: center;
+    border: 1px solid blue;
+    max-width: 600px;
+    margin-bottom: 5%;
+}
+
+.menu{
+   display: flex;
+   flex-direction: row;
+   margin-left:5%;
+   margin-bottom: 5%;
+}
+
+.pied{
+    border: 1px solid;
+}
