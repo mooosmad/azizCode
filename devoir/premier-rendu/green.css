@@ -1,0 +1,15 @@
+body{
+    background: url(arriere-plan.jpg) no-repeat;
+    background-size : cover;
+}
+
+.banniere{
+border: 1px solid black;
+margin-left: 100px;
+margin-right: 100px;
+}
+
+.banniere h1{
+    text-align: center;
+}
+
