@@ -6,6 +6,8 @@ html{
     color: darkblue;
     text-align: center;
     border: 1px solid blue;
+    margin-left: 300px;
+    margin-right: 300px;
     max-width: 600px;
     margin-bottom: 5%;
 }

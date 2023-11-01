@@ -1,12 +1,14 @@
 body{
-    background: url(arriere-plan.jpg) no-repeat;
-    background-size : cover;
+    background: url(arriere-plan.jpg) repeat-x;
+    background-size: 15%;
+    background-color: darkgreen;
 }
 
 .banniere{
 border: 1px solid black;
 margin-left: 100px;
 margin-right: 100px;
+margin-top: 10%;
 }
 
 .banniere h1{
