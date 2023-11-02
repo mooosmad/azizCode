@@ -6,8 +6,8 @@ html{
     color: darkblue;
     text-align: center;
     border: 1px solid blue;
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 350px;
+    margin-right: 350px;
     max-width: 600px;
     margin-bottom: 5%;
 }
@@ -15,8 +15,15 @@ html{
 .menu{
    display: flex;
    flex-direction: row;
-   margin-left:5%;
+   margin-left:10%;
    margin-bottom: 5%;
+}
+
+.menu img{
+    margin-bottom: 10%;
+    margin-right: 50px;
+    width: 72%;
+    height: 70%;
 }
 
 .pied{
