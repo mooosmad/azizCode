@@ -1,7 +1,7 @@
 body{
-    background: url(arriere-plan.jpg) repeat-x;
+    background: url(./arriere-plan.jpg) repeat-x;
     background-size: 15%;
-    background-color: darkgreen;
+    background-color: rgb(49, 86, 34); 
 }
 
 .banniere{
@@ -13,5 +13,13 @@ margin-top: 10%;
 
 .banniere h1{
     text-align: center;
+}
+
+.pied{
+    margin-top: 5%;
+}
+
+.pied img{
+    margin-left: 25%;
 }
 
